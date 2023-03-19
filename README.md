@@ -1,5 +1,6 @@
 # Developer Portfolio
 
+Welcome to my developer portfolio! This website showcases some of my recent projects and provides a glimpse into my skills as a developer. You can view the live site at
 > [navyadua.github.io](https://navyadua.github.io/)
 
 ### Website Preview
