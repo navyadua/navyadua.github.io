@@ -12,12 +12,12 @@ Welcome to my developer portfolio! This website showcases some of my recent proj
 ![image](https://user-images.githubusercontent.com/91384754/226175305-8135d9c7-1947-4a7b-8c7b-8784eb41c378.png)
 
 ## Features 🪶
-✔️ Flex Slider
-✔️ Colorful Icons
-✔️ Beautiful Counters
-✔️ Parallax Background
-✔️ Progressbars for Skills
-✔️ Accordions for Education
+✔️ Flex Slider\
+✔️ Colorful Icons\
+✔️ Beautiful Counters\
+✔️ Parallax Background\
+✔️ Progressbars for Skills\
+✔️ Accordions for Education\
 
 ## Sections 📚
 ✔️ About me\
@@ -27,13 +27,14 @@ Welcome to my developer portfolio! This website showcases some of my recent proj
 ✔️ Projects
 
 ## Tools Used 🛠️
-✔️ HTML✔️ ✔️ CSS
-✔️ ✔️ S
-✔️ GitHub Pages To host my static website.
-✔️ Bootstrap v3.3.5
-✔️ Animate.css
-✔️ Owl Carousel
-✔️ FlexSlider
+✔️ HTML\
+✔️ CSS\
+✔️ JS\
+✔️ GitHub Pages\
+✔️ Bootstrap v3.3.5 \
+✔️ Animate.css\
+✔️ Owl Carousel\
+✔️ FlexSlider\
 ✔️ jQuery v2.1.4
 
 #
