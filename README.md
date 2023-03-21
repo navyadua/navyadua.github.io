@@ -11,6 +11,14 @@ Welcome to my developer portfolio! This website showcases some of my recent proj
 ### Website Preview
 ![image](https://user-images.githubusercontent.com/91384754/226175305-8135d9c7-1947-4a7b-8c7b-8784eb41c378.png)
 
+## Features 🪶
+Flex Slider
+Colorful Icons
+Beautiful Counters
+Parallax Background
+Progressbars for Skills
+Accordions for Education
+
 ## Sections 📚
 ✔️ About me\
 ✔️ Skiils\
@@ -19,5 +27,18 @@ Welcome to my developer portfolio! This website showcases some of my recent proj
 ✔️ Projects
 
 ## Tools Used 🛠️
-* HTML CSS JS - To Build a static Website
+* HTML
+* CSS
+* JS
 * GitHub Pages To host my static website.
+* Bootstrap v3.3.5
+* Animate.css
+* Owl Carousel
+* FlexSlider
+* jQuery v2.1.4
+
+#
+
+Made with ❤ Thanks for scrolling through ! 
+
+#
