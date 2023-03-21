@@ -11,6 +11,15 @@ Welcome to my developer portfolio! This website showcases some of my recent proj
 ### Website Preview
 ![image](https://user-images.githubusercontent.com/91384754/226175305-8135d9c7-1947-4a7b-8c7b-8784eb41c378.png)
 
+## Sections 📚
+✔️ About me\
+✔️ Skiils\
+✔️ Education\
+✔️ Certifications\
+✔️ Projects
+
+## How I Made It! ![image](https://user-images.githubusercontent.com/91384754/225824434-0688fac8-2e5f-4f23-b8d1-2576d5b64788.png)
+
 ## Features 🪶
 ✔️ Flex Slider\
 ✔️ Colorful Icons\
@@ -18,13 +27,6 @@ Welcome to my developer portfolio! This website showcases some of my recent proj
 ✔️ Parallax Background\
 ✔️ Progressbars for Skills\
 ✔️ Accordions for Education\
-
-## Sections 📚
-✔️ About me\
-✔️ Skiils\
-✔️ Education\
-✔️ Certifications\
-✔️ Projects
 
 ## Tools Used 🛠️
 ✔️ HTML\
