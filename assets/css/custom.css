@@ -1,0 +1,18 @@
+.btn-outline-info.custom-btn {
+  font-size: 12px;
+  padding: 10px 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: black;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  margin-top: 3px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  display: inline-block;
+}
