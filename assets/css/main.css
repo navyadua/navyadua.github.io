@@ -894,6 +894,15 @@ a.back-to-top:focus {
     border-radius: 4px;
 }
 
+.project-text {
+    color: white;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    padding: 5px;
+    margin: 5px
+}
+
 .overlay .preview {
     position: absolute;
     left: 45%;
