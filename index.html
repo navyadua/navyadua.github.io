@@ -35,6 +35,73 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+      <!-- Devicon (Programming / ML / Big Data icons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <!-- Font Awesome (Generic / BI / Tools icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+/* ====== General Body ====== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f9fafb;
+    color: #111;
+    margin: 0;
+    padding: 40px;
+}
+
+/* ====== Headings ====== */
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+
+/* ====== Skills Section ====== */
+.skills-section {
+    margin-top: 20px;
+}
+
+/* ====== Skills List ====== */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 16px;
+}
+
+/* ====== Individual Skill Item ====== */
+.skills-list li {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Stack icon on top, label below */
+    align-items: center;    /* Center horizontally */
+    justify-content: center;
+    gap: 10px;              /* Space between icon and text */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    font-size: 1rem;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* ====== Icon Style ====== */
+.skills-list i {
+    font-size: 2.5rem; /* Bigger icon */
+    color: #4a90e2;    /* Optional: icon color */
+}
+
+/* ====== Hover Effect ====== */
+.skills-list li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+  </style>
+
 
 </head>
 
@@ -452,168 +519,313 @@
 
 
 <section id="skills" class="skills counter-section section-padding">
-            <div class="container">
-                <h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Toolkit</h2>
-                <div class="row">
+    <div class="container">
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Toolkit</h2>
+        <div class="row">
 
-                    <div class="col-md-2">
-                        <div class="wow fadeInLeft animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/python-icon.png" style="max-width:50%; max-height:50%;" alt="Python">
-                                </div>
-                                <div class="service-desc">
-                                </div>
-                            </div>
+            <!-- Python -->
+            <div class="col-md-2">
+                <div class="wow fadeInLeft animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-python-plain colored" style="font-size:3rem;"></i>
                         </div>
+                        <div class="service-desc">Python</div>
                     </div>
-
-                    <div class="col-md-2">
-                        <div class="wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/jupyter-icon.png" style="max-width:50%; max-height:50%;" alt="Jupyter">
-                                </div>
-                                <div class="service-desc">
-                                    <!--<h5>Jupyter Notebook</h5>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2">
-                        <div class="wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/pandas-icon.png" style="max-width:90%; max-height:90%;" alt="Pandas">
-                                </div>
-                                <div class="service-desc">
-                                    <!--<h5>Pandas</h5>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2">
-                        <div class="wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/sklearn-icon.png" style="max-width:100%; max-height:100%;" alt="scikit-learn">
-                                </div>
-                                <div class="service-desc">
-                                    <!--<h5>Scikit-Learn</h5>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/seaborn-icon.png" style="max-width:50%; max-height:50%;" alt="Seaborn">
-                                </div>
-                                <div class="service-desc">
-                                    <!--<h5>Scikit-Learn</h5>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/pyspark-icon.png" style="max-width:50%; max-height:50%;" alt="Pyspark">
-                                </div>
-                                <div class="service-desc">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/plotly-icon.png" style="max-width:50%; max-height:50%;" alt="Plotly">
-                                </div>
-                                <div class="service-desc">
-                                    <!--<h5>Scikit-Learn</h5>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/power-bi-icon.png" style="max-width:50%; max-height:50%;" alt="PowerBI">
-                                </div>
-                                <div class="service-desc">
-                                    <!--<h5>bash</h5>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2">
-                        <div class="wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/r-icon.png" style="max-width:50%; max-height:50%;" alt="R">
-                                </div>
-                                <div class="service-desc">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/shiny-icon.png" style="max-width:50%; max-height:50%;" alt="Shiny">
-                                </div>
-                                <div class="service-desc">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/git-icon.png" style="max-width:50%; max-height:50%;" alt="git">
-                                </div>
-                                <div class="service-desc">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2">
-                        <div class="wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="assets/img/icons/sql-icon.png" alt="SQL">
-                                </div>
-                                <div class="service-desc">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--<div class="col-md-2">
-<div class="wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-           <div class="service-box">
-             <div class="service-icon">
-               <img src="assets/img/icons/hadoop-icon.png" style="max-width:50%; max-height:50%;" alt="Hadoop">
-             </div>
-             <div class="service-desc">
-             </div>
-           </div>
-         </div>
-       </div>-->
                 </div>
             </div>
+
+            <!-- Java -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-java-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Java</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- R -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-rstudio-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">R</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SQL -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-mysql-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">SQL</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flask -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-flask-original colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Flask</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Django -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-django-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Django</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- scikit-learn -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-scikitlearn-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">scikit-learn</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TensorFlow -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-tensorflow-original colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">TensorFlow</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PyTorch -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-pytorch-original colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">PyTorch</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NLTK -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-brain" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">NLTK</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SpaCy -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-language" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">SpaCy</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OpenCV -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-opencv-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">OpenCV</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Matplotlib -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-matplotlib-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Matplotlib</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seaborn -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-chart-pie" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Seaborn</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plotly -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-plotly-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Plotly</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Power BI -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-chart-column" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Power BI</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tableau -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-chart-bar" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Tableau</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Excel -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-file-excel" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Excel</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Apache Spark -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-apachespark-original colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Apache Spark</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PySpark -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-apachespark-original colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">PySpark</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hadoop -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-hadoop-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Hadoop</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hive -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-database" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Hive</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AWS -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="fa-brands fa-aws" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">AWS</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Docker -->
+            <div class="col-md-2">
+                <div class="wow fadeInRight animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-docker-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Docker</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Git -->
+            <div class="col-md-2">
+                <div class="wow fadeInUp animated" data-wow-delay="0.2s">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <i class="devicon-git-plain colored" style="font-size:3rem;"></i>
+                        </div>
+                        <div class="service-desc">Git</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-    </section>
+</section>
 
 
 
